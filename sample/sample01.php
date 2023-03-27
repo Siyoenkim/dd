@@ -34,7 +34,7 @@
                 <li><a href="#">전체 dd회원 목록</a></li>
                 <li><a href="#">전체 회원 목록</a></li>
                 <li><a href="#">전체 회원 목록</a></li>
-                <li><a href="#">전체 회원 목록</a></li>
+                <li><a href="#">전체 dd회원 목록</a></li>
                 <li><a href="#">전체 회원 목록</a></li>
             </ul>
         </aside>
