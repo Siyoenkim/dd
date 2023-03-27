@@ -4,41 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://webfontworld.github.io/PyeongChang/PyeongChang.css" rel="stylesheet">
     <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        a {
-            text-decoration: none;
-            color: #000;
-        }
-        main {
-            display: flex;
-            justify-content: space-between;
-        }
-        aside {
-            width: 30%;
-            background-color: #F5F5F5;
-        }
-        section {
-            width: 70%;
-        }
-    </style>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <main>
         <aside>
-            <ul>
-                <li><a href="#">전체 회원 목록</a></li>
-                <li><a href="#">전체 회원 목록</a></li>
-                <li><a href="#">전체 회원 목록</a></li>
-                <li><a href="#">전체 회원 목록</a></li>
-                <li><a href="#">전체 회원 목록</a></li>
-            </ul>
+            <?php
+                include "aside.php";
+            ?>
         </aside>
-        <section>section</section>
+        <section>
+            <form action="sample02-save.php" name="same" method="post">
+                <fieldset>
+                    <input type="email" name="youEmail" placeholder="이메일">
+                    <input type="text" name="youName" placeholder="이름">
+                    <input type="password" name="youPass" placeholder="비밀번호">
+                    <input type="text" name="youBirth" placeholder="생일">
+                    <input type="text" name="youAge" placeholder="나이">
+                    <button type="submit">회원 추가하기</button>
+                </fieldset>
+            <?php
+                $sql = "INSERT INTO members() VALUES()";
+            ?>
+        </section>
     </main>
 </body>
 </html>
